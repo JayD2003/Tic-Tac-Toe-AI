@@ -1,35 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
 }
 
 html { 
-    background-color: #ffff80; 
+    background-color: black; 
 }
 
 header{
     text-align: center;
-    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 	padding: 0; 
 }
 
 h1#head { 
     font-size: 50px;
     font-family: Cursive;
-    color: cornflowerblue;
+    color: #efd033;
 }
 
 h1#result {
     font-size: 30px;
-    font-family: Verdana;
+    font-family: "Playfair Display", serif;
     color: chocolate;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 canvas {
     border: 3px solid dodgerblue; 
-    background-color: lightyellow;
+    background-color: #f5f5dc;
     text-align: center;
 	/* Added to join the canvases after we created the red strike throughts */
 	display: block;
@@ -65,12 +70,15 @@ canvas {
 p {
     font-size: 26px;
     margin: 15px;
-    color: brown;
+    color: white;
+    font-family: "Poppins", sans-serif;
 }
 
 h2 {
     font-size: 35px;
-    color: brown;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+
 }
 
 button {
